@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 )
+
 /*
 - Utilizando a solução do exercício anterior:
     1. Em package-level scope, utilizando a palavra-chave var, crie uma variável com o identificador "y". O tipo desta variável deve ser o tipo subjacente do tipo que você criou no exercício anterior.
@@ -18,6 +19,7 @@ import (
             3. Demonstre o tipo de "y"
 */
 type novoTipo int
+
 var x novoTipo
 var y int
 
@@ -29,5 +31,5 @@ func main() {
 	//conversão
 	y = int(x)
 	fmt.Printf("y: %v, tipo: %T", y, y)
-	
+
 }

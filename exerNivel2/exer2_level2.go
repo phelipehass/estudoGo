@@ -1,8 +1,9 @@
 package main
 
 import "fmt"
+
 /*- Escreva expressões utilizando os operadores, e atribua seus valores a variáveis.
-- = 
+- =
 - !=
 - <=
 - <
@@ -18,6 +19,6 @@ func main() {
 	e := (3 >= 2)
 	f := (4 > 5)
 
-	fmt.Printf("a: %v\nb: %v\nc: %v\nd: %v\ne: %v\nf: %v\n",a,b,c,d,e,f)
-	
+	fmt.Printf("a: %v\nb: %v\nc: %v\nd: %v\ne: %v\nf: %v\n", a, b, c, d, e, f)
+
 }

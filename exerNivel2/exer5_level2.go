@@ -8,6 +8,6 @@ import "fmt"
 func main() {
 	s := `Olá,
 		Estou de volta!! :)`
-	
+
 	fmt.Printf("Raw string literal: %v\n", s)
 }

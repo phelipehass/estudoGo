@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 )
+
 /*
 - Crie um tipo. O tipo subjacente deve ser int.
 - Crie uma variável para este tipo, com o identificador "x", utilizando a palavra-chave var.
@@ -14,6 +15,7 @@ import (
 */
 
 type novoTipo int
+
 var x novoTipo
 
 func main() {

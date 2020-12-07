@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 )
+
 /*
 - Utilizando o operador curto de declaração, atribua estes valores às variáveis com os identificadores "x", "y", e "z".
     1. 42

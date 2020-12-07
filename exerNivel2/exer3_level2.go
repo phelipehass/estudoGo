@@ -7,10 +7,11 @@ import "fmt"
 
 const (
 	x int = 10
-	a = 5
-	y = "teste"
-	z = true
+	a     = 5
+	y     = "teste"
+	z     = true
 )
+
 func main() {
-	fmt.Printf("Constantes x: %d, a: %v, y: %v, z: %v\n",x, a, y, z)
+	fmt.Printf("Constantes x: %d, a: %v, y: %v, z: %v\n", x, a, y, z)
 }
