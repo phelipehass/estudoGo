@@ -5,6 +5,9 @@ import (
 	"fmt"
 )
 
+//- Partindo do código abaixo, utilize unmarshal e demonstre os valores.
+//  - https://play.golang.org/p/b_UuCcZag9
+
 type jsontogo []struct {
 	First   string   `json:"First"`
 	Last    string   `json:"Last"`
