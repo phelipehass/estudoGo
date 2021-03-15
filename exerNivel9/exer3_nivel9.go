@@ -22,11 +22,11 @@ var gr sync.WaitGroup
 func main() {
 	x := 100
 
-	newgoroutines(x)
+	newGoroutines(x)
 	gr.Wait()
 }
 
-func newgoroutines(i int) {
+func newGoroutines(i int) {
 	gr.Add(i)
 	contador := 0
 
